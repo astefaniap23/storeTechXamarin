@@ -1,2 +1,2 @@
 # storeTechXamarin
-Lenguage Xamarin with BD Sql AWS
+Lenguage C# Xamarin with BD Sql AWS
