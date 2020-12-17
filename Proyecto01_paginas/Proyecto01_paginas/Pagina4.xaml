@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto01_paginas.Pagina4">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout
+                BackgroundColor="Blue"
+                Spacing="0">
+
+                <StackLayout
+                    BackgroundColor="yellow"
+                    HeightRequest="400"
+                    Spacing="0">
+
+                    <ImageButton x:Name="imgImpresora1" 
+                        Margin="0,35,0,0"
+                        Source="impresora01.png" 
+                        />
+
+
+
+                 <Label x:Name="lblNombre1"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblPrecio1"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+            
+                <Label x:Name="lblStock1"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblCategoria1"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblDescripcion1"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+            
+                </StackLayout>
+
+                <Button x:Name="btncomprar1"
+                        Text="Comprar"
+                        Background="blue"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        TextColor="white"/>
+
+                <Label x:Name="lblCantidad1"
+                 Text="Cantidad:" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Entry x:Name="txtCantidad1"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="Black"
+                          FontAttributes="Bold"
+                           />
+
+
+
+
+
+
+                <StackLayout
+                    BackgroundColor="red"
+                    HeightRequest="400"
+                    Spacing="0">
+
+                    <ImageButton x:Name="imgImpresora2" 
+                        Margin="0,35,0,0"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"
+                        Source="impresora02.png" />
+
+
+                        <Label x:Name="lblNombre2"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblPrecio2"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+            
+                <Label x:Name="lblStock2"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblCategoria2"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblDescripcion2"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                </StackLayout>
+                <Button x:Name="btncomprar2"
+                        Text="Comprar"
+                        Background="blue"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        TextColor="white"/>
+
+                 <Label x:Name="lblCantidad2"
+                 Text="Cantidad:" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Entry x:Name="txtCantidad2"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="Black"
+                          FontAttributes="Bold"
+                           />
+
+
+
+
+
+
+
+                <StackLayout
+                    BackgroundColor="green"
+                    HeightRequest="400"
+                    Spacing="0">
+
+                    <ImageButton x:Name="imgImpresora3" 
+                        Margin="0,35,0,0"
+                        
+                        Source="impresora03.png" />
+
+                      <Label x:Name="lblNombre3"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblPrecio3"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+            
+                <Label x:Name="lblStock3"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblCategoria3"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblDescripcion3"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                </StackLayout>
+                <Button x:Name="btncomprar3"
+                        Text="Comprar"
+                        Background="blue"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        TextColor="white"/>
+
+                          <Label x:Name="lblCantidad3"
+                 Text="Cantidad:" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Entry x:Name="txtCantidad3"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="Black"
+                          FontAttributes="Bold"
+                           />
+
+
+
+            </StackLayout>
+            
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

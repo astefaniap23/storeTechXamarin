@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto01_paginas.Pagina1"
+             >
+    <ContentPage.Content >
+        <ScrollView>
+        <StackLayout BackgroundColor="Yellow"
+                     Padding="20"
+                     >
+
+            <Label x:Name="lblLenovo"
+                    Text="Lenovo" 
+                    FontSize="20"
+                    TextColor="#000000"
+                    FontAttributes="Bold"
+                     
+                    />
+            <ImageButton x:Name="imgLenovo"
+                Source="imagen01.png" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
+                   BackgroundColor="Yellow"
+                    />
+
+            <Label x:Name="lblNombre"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblPrecio"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+            
+                <Label x:Name="lblStock"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblCategoria"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Label x:Name="lblDescripcion"
+                 Text="****" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+            
+
+                <Button x:Name="btnComprar" 
+                    BackgroundColor="Blue"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                Text="Comprar" />
+
+                <Label x:Name="lblCantidad"
+                 Text="Cantidad:" 
+                    FontSize="18"
+                    TextColor="#000000"
+                    FontAttributes="Bold" />
+
+                <Entry x:Name="txtCantidad"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="Black"
+                          FontAttributes="Bold"
+                           />
+
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

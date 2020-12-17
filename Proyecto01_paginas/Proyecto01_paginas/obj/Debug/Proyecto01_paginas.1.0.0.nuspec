@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Proyecto01_paginas</id>
+    <version>1.0.0</version>
+    <authors>Proyecto01_paginas</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Essentials" version="1.5.3.2" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.8.0.1451" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Plugin.SharedTransitions" version="2.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard2.0/bin/Debug/netstandard2.0/Proyecto01_paginas.deps.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\HyGyRyA\source\repos\Proyecto01_paginas\Proyecto01_paginas\Proyecto01_paginas\bin\Debug\netstandard2.0\Proyecto01_paginas.dll" target="lib\netstandard2.0\Proyecto01_paginas.dll" />
+    <file src="C:\Users\HyGyRyA\source\repos\Proyecto01_paginas\Proyecto01_paginas\Proyecto01_paginas\bin\Debug\netstandard2.0\Proyecto01_paginas.deps.json" target="content\bin\Debug\netstandard2.0\Proyecto01_paginas.deps.json" />
+    <file src="C:\Users\HyGyRyA\source\repos\Proyecto01_paginas\Proyecto01_paginas\Proyecto01_paginas\bin\Debug\netstandard2.0\Proyecto01_paginas.deps.json" target="contentFiles\any\netstandard2.0\bin\Debug\netstandard2.0\Proyecto01_paginas.deps.json" />
+  </files>
+</package>

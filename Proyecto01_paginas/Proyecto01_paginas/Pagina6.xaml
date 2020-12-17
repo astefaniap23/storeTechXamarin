@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto01_paginas.Pagina6">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <!-- *********Fila 1 ********** -->
+                <Image Source="impresora01.png" 
+                       BackgroundColor="Orange"
+                       Grid.Row="0" Grid.Column="0"
+                 />
+                <Image Source="imagen01.png" 
+                       BackgroundColor="PaleGreen"
+                       Grid.Row="0" Grid.Column="1"
+                 />
+                <Image Source="imagen02.png" 
+                       BackgroundColor="Orange"
+                       Grid.Row="0" Grid.Column="2"
+                 />
+                <!-- *********Fila 2 ********** -->
+                <Image Source="impresora02.png" 
+                       BackgroundColor="PaleGreen"
+                       Grid.Row="1" Grid.Column="0"
+                 />
+                <Image Source="imagen02.png" 
+                       BackgroundColor="Orange"
+                       Grid.Row="1" Grid.Column="1"
+                 />
+                <Image Source="imagen01.png" 
+                       BackgroundColor="PaleGreen"
+                       Grid.Row="1" Grid.Column="2"
+                 />
+
+                <!-- *********Fila 3 ********** -->
+                <Image Source="impresora01.png" 
+                       BackgroundColor="Orange"
+                       Grid.Row="2" Grid.Column="0"
+                 />
+                <Image Source="imagen02.png" 
+                       BackgroundColor="PaleGreen"
+                       Grid.Row="2" Grid.Column="1"
+                       Grid.ColumnSpan="2"
+                 />
+                
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

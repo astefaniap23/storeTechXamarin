@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto01_paginas.Pagina51">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+
+            <ImageButton x:Name="imgEnrollable"
+                Source="enrollable.jpg" />
+
+            <ScrollView VerticalOptions="FillAndExpand">
+
+                <StackLayout>
+
+                    <Label Text="En la mañana les presentamos algunas imágenes de los conceptos OLED de Sony, donde vimos una laptop usando una completa pantalla flexible que elimina el teclado físico, pero no quedaba claro donde se encontrarían algunas características típicas de una laptop como el caso de los altavoces.
+Orkin Design creó un interesante concepto apoyado en la tecnología flexible OLED con un diseño enrollable diferente a la tradicional computadora portátil.
+Cuenta con una pantalla multi-táctil que fácilmente puede convertirse de una laptop (con teclado virtual) a una completa tableta gráfica con pluma integrada. Mientras que los altavoces, webcam, puertos USB y suministro de corriente se encuentran en su base todo-en-uno.
+Si este concepto lo hacen realidad, agregándole un cargador inalámbrico y un termo para café será un éxito."/>
+
+                </StackLayout>
+                
+            </ScrollView>
+            <Button x:Name="btnComprar"
+                   TextColor="blue"
+                    FontFamily="verdana"
+                    FontSize="16"
+                Text="Comprar / Oferta" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

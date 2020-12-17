@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto01_paginas.Pagina7">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="0"
+                BackgroundColor="Blue">
+
+                <BoxView
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="50"
+                    Color="Black"
+                    VerticalOptions="Start"/>
+
+                <StackLayout
+                    HeightRequest="180"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="white"
+                    Padding="0,10,0,0">
+
+                    <Label Text="Contacto" 
+                           TextColor="blue"
+                           FontSize="30"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"/>
+
+                    <Image Source="logook.png"
+                           WidthRequest="100"
+                           HeightRequest="100"
+                           />
+
+                </StackLayout>
+
+                <StackLayout
+                    HeightRequest="50"
+                    Orientation="Horizontal"
+                    BackgroundColor="Gray"
+                    Padding="5">
+
+                    <StackLayout 
+                        Orientation="Horizontal"
+                        Spacing="0"
+                        HorizontalOptions="Start">
+
+                        <BoxView BackgroundColor="blue"
+                                 HeightRequest="40"
+                                 WidthRequest="40"
+                                 CornerRadius="20"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="StartAndExpand"
+                                 />
+                        <Label Text="Por Correo"
+                               TextColor="Black"
+                               Margin="10,0,0,0"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"/>
+
+                    </StackLayout>
+
+
+                    <StackLayout 
+                        Orientation="Horizontal"
+                        Spacing="0"
+                        HorizontalOptions="EndAndExpand">
+
+                        <BoxView BackgroundColor="Black"
+                                 HeightRequest="40"
+                                 WidthRequest="40"
+                                 CornerRadius="20"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="StartAndExpand"
+                                 />
+                        <Label Text="Por Teléfono"
+                               TextColor="Black"
+                               Margin="10,0,0,0"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+                
+                <!-- *********************************** -->
+
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    Padding="25,0,25,0">
+
+                    <Label FontSize="16"
+                           Text="Nombre:"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           WidthRequest="100" />
+
+                    <Entry x:Name="txtNombre"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="White"
+                           Placeholder="Solo primer nombre"
+                           Keyboard="Text"
+                          FontAttributes="Bold"/>
+
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    Padding="25,0,25,0">
+
+                    <Label FontSize="16"
+                           Text="Apellidos:"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           WidthRequest="100" />
+
+                    <Entry x:Name="txtApellidos"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="White"
+                           Keyboard="Text"
+                          FontAttributes="Bold"/>
+
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    Padding="25,0,25,0">
+
+                    <Label FontSize="16"
+                           Text="Sexo:"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           WidthRequest="100" />
+
+                    <Picker x:Name="cboSexo"
+                            TextColor="White"
+                            HorizontalOptions="FillAndExpand">
+
+                        <Picker.Items>
+                            <x:String>Seleccione...</x:String>
+                            <x:String>Masculino</x:String>
+                            <x:String>Femenino</x:String>
+                            <x:String>Sin especificar</x:String>
+                        </Picker.Items>
+                        
+                    </Picker>
+
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    Padding="25,0,25,0">
+
+                    <Label FontSize="16"
+                           Text="F. Nac:"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           WidthRequest="100" />
+
+                    <DatePicker x:Name="dpFecha"
+                                TextColor="White"
+                                FontSize="16"
+                                FontAttributes="Bold"/>
+
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    Padding="25,0,25,0">
+
+                    <Label FontSize="16"
+                           Text="Correo:"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           WidthRequest="100" />
+
+                    <Entry x:Name="txtCorreo"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="White"
+                           Placeholder="usuario@dominio.com"
+                          FontAttributes="Bold"
+                           Keyboard="Email"/>
+
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    Padding="25,0,25,0">
+
+                    <Label FontSize="16"
+                           Text="Teléfono:"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           WidthRequest="100" />
+
+                    <Entry x:Name="txtTelefono"
+                          HorizontalOptions="FillAndExpand"
+                          TextColor="White"
+                          FontAttributes="Bold"
+                           Placeholder="Solo numeros"
+                            Keyboard="Telephone"/>
+
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    Padding="25,0,25,0">
+
+                    <Label FontSize="16"
+                           Text="Producto:"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           WidthRequest="100" />
+
+                    <Editor x:Name="edProducto"
+                            WidthRequest="200"
+                            HeightRequest="100"
+                            TextColor="White"
+                            Keyboard="Plain"
+                            AutoSize="TextChanges"
+                            MaxLength="180"/>
+
+
+                </StackLayout>
+
+                <Button x:Name="btnEnviar"
+                        Margin="0,50,0,50"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        FontFamily="verdana"
+                        BackgroundColor="Black"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        BorderRadius="80"
+                        Text="Enviar"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

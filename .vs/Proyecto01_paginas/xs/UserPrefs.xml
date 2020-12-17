@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{AD00CF11-97A7-4258-9576-DE1358DA0438}|Default" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Proyecto01_paginas/Proyecto01_paginas/Pagina7.xaml.cs">
+    <Files>
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina1.xaml" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina4.xaml" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina4.xaml.cs" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/obj/Debug/netstandard2.0/Pagina4.xaml.g.cs" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina6.xaml" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina3.xaml" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina3.xaml.cs" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina7.xaml" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/obj/Debug/netstandard2.0/Pagina7.xaml.g.cs" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/App.xaml.cs" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas.Android/Resources/clases/ClaseConexion.cs" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina1.xaml.cs" Line="1" Column="1" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/MainPage.xaml" Line="20" Column="35" />
+      <File FileName="Proyecto01_paginas/Proyecto01_paginas/Pagina7.xaml.cs" Line="149" Column="78" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Proyecto01_paginas" expanded="True">
+            <Node name="Proyecto01_paginas" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Pagina1.xaml" expanded="True" />
+              <Node name="Pagina2.xaml" expanded="True" />
+              <Node name="Pagina3.xaml" expanded="True" />
+              <Node name="Pagina4.xaml" expanded="True" />
+              <Node name="Pagina51.xaml" expanded="True" />
+              <Node name="Pagina6.xaml" expanded="True" />
+              <Node name="Pagina7.xaml" expanded="True">
+                <Node name="Pagina7.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Proyecto01_paginas.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="clases" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Proyecto01__paginas.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" TriggeredFromHotReload="False" Xamarin.HotReload.DebuggerTimeoutException.Proyecto01__paginas.Android.HideInfoBar="True" PreferredExecutionTarget="Android.Nexus_6_API_26" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
