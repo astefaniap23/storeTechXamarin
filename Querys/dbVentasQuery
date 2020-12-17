@@ -1,0 +1,96 @@
+--Tabla categorias
+create table categoria
+(idcategoria integer primary key identity,
+ nombre varchar(50) not null,
+ descripcion varchar(256) not null,
+ estado integer default 1);
+
+ --Tabla Producto
+ create table producto
+ (idproducto integer primary key identity,
+ idcategoria integer not null,
+ codigo_fabrica varchar(50) null,
+ nombre varchar(100) not null unique,
+ precio_venta decimal(8,2) not null,
+ stock integer not null,
+ descripcion varchar(256) null);
+
+ --Tabla Rol
+ create table rol
+ (idrol integer primary key identity,
+ nombre varchar(100) not null,
+ descripcion varchar(256) not null);
+
+ --Tabla Usuario
+ create table usuario
+ (idusuario integer primary key identity,
+ idrol integer not null,
+ nombre varchar(100) not null,
+ clave integer not null default 1234);
+
+--Tabla venta
+create table venta
+(idventa integer primary key identity,
+idcliente integer not null ,
+idusuario integer not null,
+fecha_venta datetime not null,
+subtotal decimal (8,2) not null,
+igv decimal (8,2) not null,
+total decimal (8,2) not null,
+estado varchar (20) not null);
+
+--Tabla Detalle de Venta 
+create table detalle_venta
+(idventa integer not null,
+idproducto integer not null,
+cantidad integer not null,
+importe integer not null, 
+descuento decimal (8,2) not null DEFAULT 0
+);
+
+--Tabla cliente 
+create table cliente
+(idcliente integer primary key identity,
+nombre varchar (20) not null,
+apellido varchar (20) not null,
+sexo varchar (20) not null,
+fechanac datetime not null,
+correo varchar (20) not null,
+telefono varchar (20) not null);
+
+
+--Relacionar
+alter table producto
+add constraint R_P_C
+foreign key (idcategoria)
+references categoria (idcategoria);
+
+--Relacionar
+alter table usuario
+add constraint R_U_R
+foreign key (idrol)
+references rol (idrol);
+
+alter table venta
+add constraint R_V_C
+foreign key (idcliente)
+references cliente (idcliente);
+
+alter table venta
+add constraint R_V_U
+foreign key (idusuario)
+references usuario (idusuario);
+
+alter table detalle_venta
+add constraint R_DV_P
+foreign key (idproducto)
+references producto (idproducto);
+
+alter table detalle_venta
+add constraint R_DV_V
+foreign key (idventa)
+references venta (idventa);
+
+
+
+select P.nombre,P.precio_venta,P.stock,P.descripcion, C.nombre from producto P join categoria C on P.idcategoria = C.idcategoria where idproducto = 1 and C.idcategoria = 1;

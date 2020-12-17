@@ -1,0 +1,41 @@
+select * from cliente;
+
+insert into rol (nombre, descripcion)
+VALUES ('administrador', 'Cuenta principal');
+
+insert into rol (nombre, descripcion)
+VALUES ('usuario', 'Cuenta cliente');
+
+--venta
+
+create table cliente2
+(idcliente integer primary key identity,
+nombre varchar(100) not null unique,
+apellidos varchar(100) not null unique,
+sexo char(1) not null,
+fechanac date not null,
+correo varchar(100) not null,
+telefono varchar(20) not null);
+
+create table usuario2
+(idusuario integer primary key identity,
+idrol integer not null,
+nombre varchar(100) not null,
+clave integer not null default 1234);
+
+create table venta2
+(idventa integer primary key identity,
+idcliente integer not null,
+idusuario integer not null,
+fecha_venta datetime not null,
+subtotal decimal(8,2) not null,
+igv decimal(8,2) not null,
+total decimal(8,2) not null,
+estado varchar(20) not null);
+
+create table detalle_venta2
+(idventa integer not null,
+idproducto integer not null,
+cantidad integer not null,
+importe integer not null,
+descuento decimal(8,2) not null default 0);
